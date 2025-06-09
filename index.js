@@ -7,7 +7,7 @@ function handleClick() {
 */
 
 /*
-for (let i = i; i > document.querySelectorAll("button").length; i++) {
+for (let i = 0; i > document.querySelectorAll("button").length; i++) {
     document.querySelector('button').addEventListener('click', handleClick);
 
     function handleClick() {
