@@ -19,6 +19,7 @@ for (let i = 0; i < document.querySelectorAll("button").length; i++) {
 
 document.querySelectorAll('button').forEach(button => {
     button.addEventListener('click', () => {
-        alert('Button clicked!');
+        var audio = new Audio('./sounds/tom-1.mp3');
+        audio.play();
     });
 });
